@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.25rem;
+}
+
+h1 {
+  color: #ff8000;
+  margin: 0;
+  font-family: 'Montez', cursive;
+  font-size: 5.62rem;
+}
+h2 {
+  color: #ff8000;
+  font-family: 'Fondamento', cursive;
+  font-size: 2.5rem;
+}
+h3 {
+  color: #ff8000;
+  font-family: 'Fondamento', cursive;
+}
+
+a {
+  color: #ff8000;
+}
+
+a:hover {
+  color: #f7a34d;
+}
+
+hr {
+  margin: 100px auto;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 8px;
+  width: 5%;
+  color: grey;
+  opacity: 0.5;
+}
+span {
+  font-weight: bolder;
+}
+
+p {
+  margin: auto 0;
+}
+
+.contact-me-description{
+  width: 50%;
+  margin: 40px auto;
+  line-height: 1.5;
+}
+
+.profile-pic {
+  width: 200px;
+  border-radius: 100%;
+}
+
+.top_container {
+  background-color: #ffe7ce;
+  margin: 0;
+  padding-top: 150px;
+  position: relative;
+}
+
+.middle-container {
+  padding-top: 50px;
+}
+
+.bottom-container {
+  margin-top: 50px;
+  background-color: #ffe7ce;
+  padding: 40px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 80px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.computer-image{
+  width: 25%;
+  border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chillie-image {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.footer-link {
+  text-decoration: none;
+  padding: 50px;
+  text-shadow: 2px 2px 5px #fff;
+}
+
+.copyright {
+  padding-top: 30px;
+  color: black;
+  font-size: 15px;
+}
+
+.summer-image {
+  width: 500px;
+}
+
+
+
+
+.btn {
+  background: #ff8000;
+  background-image: -webkit-linear-gradient(top, #ff8000, #f7a34d);
+  background-image: -moz-linear-gradient(top, #ff8000, #f7a34d);
+  background-image: -ms-linear-gradient(top, #ff8000, #f7a34d);
+  background-image: -o-linear-gradient(top, #ff8000, #f7a34d);
+  background-image: linear-gradient(to bottom, #ff8000, #f7a34d);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ff8000;
+  background-image: -webkit-linear-gradient(top, #ff8000, #ff8000);
+  background-image: -moz-linear-gradient(top, #ff8000, #ff8000);
+  background-image: -ms-linear-gradient(top, #ff8000, #ff8000);
+  background-image: -o-linear-gradient(top, #ff8000, #ff8000);
+  background-image: linear-gradient(to bottom, #ff8000, #ff8000);
+  text-decoration: none;
+}
